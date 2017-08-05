@@ -17,7 +17,7 @@ public class WidgetRepository {
 
     public List<WidgetRecord> findAll() {
         return jdbcTemplate.query(
-                "SELECT * FROM widget",
+                "SELECT * FROM source.widget",
                 (rs, i) -> new WidgetRecord(
                         rs.getInt("id"),
                         rs.getString("name"),

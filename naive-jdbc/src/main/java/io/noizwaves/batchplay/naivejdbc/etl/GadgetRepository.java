@@ -23,6 +23,7 @@ public class GadgetRepository {
         parameters.put("price", gadget.getPrice());
 
         new SimpleJdbcInsert(jdbcTemplate)
+                .withSchemaName("destination")
                 .withTableName("gadget")
                 .usingGeneratedKeyColumns("id")
                 .execute(parameters);

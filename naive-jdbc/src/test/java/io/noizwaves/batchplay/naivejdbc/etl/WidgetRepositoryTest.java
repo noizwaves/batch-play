@@ -32,8 +32,8 @@ public class WidgetRepositoryTest {
 
     @Test
     public void testFindAll() throws Exception {
-        jdbcTemplate.update("INSERT INTO widget (id, name, unit_price) VALUES (1, 'Foo', 12.34)");
-        jdbcTemplate.update("INSERT INTO widget (id, name, unit_price) VALUES (77, 'Bar', 777.70)");
+        jdbcTemplate.update("INSERT INTO source.widget (id, name, unit_price) VALUES (1, 'Foo', 12.34)");
+        jdbcTemplate.update("INSERT INTO source.widget (id, name, unit_price) VALUES (77, 'Bar', 777.70)");
 
 
         List<WidgetRecord> records = repository.findAll();
