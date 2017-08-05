@@ -1,5 +1,8 @@
 package io.noizwaves.batchplay.naivejdbc.etl;
 
+import io.noizwaves.batchplay.naivejdbc.etl.destination.GadgetRepository;
+import io.noizwaves.batchplay.naivejdbc.etl.source.WidgetRepository;
+import io.noizwaves.batchplay.naivejdbc.etl.transform.GadgetTransformer;
 import org.springframework.stereotype.Service;
 
 @Service

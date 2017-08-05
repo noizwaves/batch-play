@@ -1,4 +1,4 @@
-package io.noizwaves.batchplay.naivejdbc.etl;
+package io.noizwaves.batchplay.naivejdbc.etl.source;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;

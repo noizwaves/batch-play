@@ -1,5 +1,7 @@
-package io.noizwaves.batchplay.naivejdbc.etl;
+package io.noizwaves.batchplay.naivejdbc.etl.source;
 
+import io.noizwaves.batchplay.naivejdbc.etl.source.WidgetRecord;
+import io.noizwaves.batchplay.naivejdbc.etl.source.WidgetRepository;
 import io.noizwaves.batchplay.naivejdbc.etl.testhelpers.RepositoryTestHelpers;
 import org.junit.Before;
 import org.junit.Test;

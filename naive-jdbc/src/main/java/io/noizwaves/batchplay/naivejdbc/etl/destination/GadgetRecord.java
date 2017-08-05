@@ -1,4 +1,4 @@
-package io.noizwaves.batchplay.naivejdbc.etl;
+package io.noizwaves.batchplay.naivejdbc.etl.destination;
 
 public class GadgetRecord {
     private final String name;

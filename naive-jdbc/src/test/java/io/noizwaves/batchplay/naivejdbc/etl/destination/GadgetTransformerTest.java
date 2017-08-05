@@ -1,5 +1,7 @@
-package io.noizwaves.batchplay.naivejdbc.etl;
+package io.noizwaves.batchplay.naivejdbc.etl.destination;
 
+import io.noizwaves.batchplay.naivejdbc.etl.transform.GadgetTransformer;
+import io.noizwaves.batchplay.naivejdbc.etl.source.WidgetRecord;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
