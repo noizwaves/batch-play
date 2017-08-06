@@ -1,7 +1,6 @@
 package io.noizwaves.batchplay.naivejdbc.etl.transform;
 
 import io.noizwaves.batchplay.naivejdbc.etl.destination.GadgetRecord;
-import io.noizwaves.batchplay.naivejdbc.etl.transform.GadgetTransformer;
 import io.noizwaves.batchplay.naivejdbc.etl.source.WidgetRecord;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,10 +13,10 @@ import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;
 
 @RunWith(MockitoJUnitRunner.class)
-public class GadgetTransformerTest {
+public class WidgetToGadgetTransformerTest {
 
     @InjectMocks
-    private GadgetTransformer transformer;
+    private WidgetToGadgetTransformer transformer;
 
     @Test
     public void testTransform() throws Exception {

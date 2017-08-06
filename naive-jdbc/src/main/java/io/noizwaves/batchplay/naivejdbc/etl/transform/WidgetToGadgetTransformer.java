@@ -5,7 +5,7 @@ import io.noizwaves.batchplay.naivejdbc.etl.source.WidgetRecord;
 import org.springframework.stereotype.Service;
 
 @Service
-public class GadgetTransformer {
+public class WidgetToGadgetTransformer {
     public GadgetRecord transform(WidgetRecord widget) {
         return new GadgetRecord(
                 widget.getName(),

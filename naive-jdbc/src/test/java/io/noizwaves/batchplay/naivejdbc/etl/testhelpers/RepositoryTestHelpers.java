@@ -16,7 +16,11 @@ public class RepositoryTestHelpers {
     }
 
     public static void truncateDB(DataSource dataSource) {
-        final String[] tablesToTruncate = new String[] {"source.widget", "destination.gadget"};
+        final String[] tablesToTruncate = new String[] {
+                "source.gizmo",
+                "source.widget",
+                "destination.gadget"
+        };
         final JdbcTemplate jdbcTemplate = new JdbcTemplate(dataSource);
 
         for (String tableName : tablesToTruncate) {
